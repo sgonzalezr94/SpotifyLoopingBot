@@ -4,10 +4,6 @@
 
 from selenium import webdriver
 import time
-import sys
-import os
-import sys
-import inspect
 import random
 import botconfig as cfg
 
