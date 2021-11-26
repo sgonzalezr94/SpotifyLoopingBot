@@ -62,7 +62,7 @@ class SpotifyBot():
             randran = random.randint(trange[0], trange[1])
             print("It will switch the song in ", randran, " seconds.")
             time.sleep(randran)
-            print("Switching song.")
+            print("Switching song. ")
             nextbtn.click()
 
 
