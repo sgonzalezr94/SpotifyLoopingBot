@@ -1,0 +1,8 @@
+login_url = 'https://accounts.spotify.com/es/login/'
+driver_url = './Resources/chromedriver'
+artist_url = 'https://open.spotify.com/artist/YOURARTISTCODEHERE' 
+username = "testuser@mail.com" 
+password = "123456" 
+buttons  = {"PLAYBTNXPATH":"//*[@id='main']/div/div[2]/div[4]/div[1]/div[2]/div[2]/div/main/section/div/div[2]/div[2]/div[2]/div/div/span/div/button", "RPTBTNCLASSNAME":"//*[@id='main']/div/div[2]/div[3]/footer/div/div[2]/div/div[1]/div[2]/button[2]","COOKIEPOLICYBTN":"//*[@id='onetrust-close-btn-container']/button","NEXTBTN":"//*[@id='main']/div/div[2]/div[3]/footer/div/div[2]/div/div[1]/div[2]/button[1]"}
+start_time = 15
+end_time = 30
