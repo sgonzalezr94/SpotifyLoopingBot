@@ -16,11 +16,11 @@ right after it is installed, you must download your favorite browser web driver.
 * [Chrome WebDrivers](https://chromedriver.chromium.org/downloads).
 * [Firefox WebDrivers](https://github.com/mozilla/geckodriver/releases) (right from Mozilla's repository).
 
-## Configuration File
+## Environment File
 
-You must create a configuration file, for this project I created a file named `botconfig.py`, in here you must declare the constants that the project is going to need to be able to play our desired Artist's content.
+You must create an environment file `.env`, in here you must declare the constants that the project is going to need to be able to play our desired Artist's content.
 
-Here is an example of the contents of `botconfig.py` : 
+Here is an example of the contents of `.env` : 
 
 ```python
 LOGINURL = 'https://accounts.spotify.com/es/login/' #URL where we are going to log in.
@@ -50,8 +50,15 @@ Contact information : sebastiang1493@gmail.com.
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LICENSE.md) file for details.
 
+## Pending improvements
+
+- Add logging instead of prints.
+- Scalability, we could launch several instances of SpotifyBot therefore some refactoring could be done.
+- Secure the execution of the Bot
+    - Proxy Switching (Take a look to [Python-Proxy-Switcher](https://github.com/sgonzalezr94/python-proxy-switcher)!)
+    - VPN usage
 ## Random Information
 
 * This project was a product of a challenge from a co-worker.
 * I don't profit by any means from this project.
-* I love cats.
+
